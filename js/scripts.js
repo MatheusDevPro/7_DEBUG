@@ -1,13 +1,13 @@
-// 1 - strict
-"use strict";
+// // 1 - strict
+// "use strict";
 
- opa = "nao da certo";
+//  opa = "nao da certo";
 
-const opa = "agora sim!";
+// const opa = "agora sim!";
 
- const undefined = 10;
+//  const undefined = 10;
 
-delete [].length;
+// delete [].length;
 
 // 2 - console.log
 // let a = 1;
@@ -30,7 +30,7 @@ delete [].length;
 
 // console.log(a);
 
-// // 3 - debugger
+// 3 - debugger
 // let c = 1;
 // let d = 2;
 
@@ -38,19 +38,19 @@ delete [].length;
 //   c = d + 2;
 // }
 
-// // debugger;
+//  debugger;
 
 // for (let i = 0; i < d; i++) {
 //   c = c + 2;
 // }
 
-// // debugger;
+//  debugger;
 
 // if (c > 5) {
 //   c = 25;
 // }
 
-// // debugger;
+// debugger;
 
 // // 4 - tratamento de dados
 // function checkNumber(n) {
@@ -74,17 +74,17 @@ delete [].length;
 // let x = 10;
 
 // if (x != 11) {
-//   //   throw new Error("O valor de x não pode ser diferente de 11!");
+//     throw new Error("O valor de x não pode ser diferente de 11!");
 // }
 
-// // 6 - try catch
+// 6 - try catch
 // try {
 //   const soma = x + y;
 // } catch (error) {
 //   console.log(`Erro no programa: ${error}`);
 // }
 
-// // 7 - finally
+// 7 - finally
 
 // try {
 //   const value = checkNumber("asd");
@@ -98,15 +98,15 @@ delete [].length;
 //   console.log("O Código foi executado!");
 // }
 
-// // 8 - assertion
-// function checkArray(arr) {
-//   if (arr.length === 0) {
-//     throw new Error("O array precisa ter elementos!");
-//   } else {
-//     console.log(`O array tem ${arr.length} elementos!`);
-//   }
-// }
+// 8 - assertion
+function checkArray(arr) {
+  if (arr.length === 0) {
+    throw new Error("O array precisa ter elementos!");
+  } else {
+    console.log(`O array tem ${arr.length} elementos!`);
+  }
+}
 
-// // checkArray([]);
+// checkArray([]);
 
-// checkArray([1, 2, 3]);
+checkArray([1, 2, 3, 4]);
